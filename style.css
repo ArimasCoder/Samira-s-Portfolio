@@ -26,7 +26,7 @@ h1 {
     text-shadow: 2px 2px lightgreen;
     font-size: 28px;
     font-family: 'Monoton', cursive;
-    color:fuchsia;
+    color:cadetblue;
 }
 
 p {
@@ -57,9 +57,23 @@ p {
     padding-left: 9px;
     padding-right: 9px;
     font-size: 18px;
-    display:inline-block;
+    display: inline-block;
 }
-.links:hover{
-    font-size:23px;
-    background-color:lightgreen;
+
+.links:hover {
+    font-size: 23px;
+    background-color: lightgreen;
+}
+
+h3 {
+    text-shadow: 2px 2px lightgreen;
+    font-family: 'Monoton', cursive;
+    color:coral;
+}
+
+#mywork a:link{
+    color:white;
+}
+#mywork a:visited{
+    color: azure;
 }
