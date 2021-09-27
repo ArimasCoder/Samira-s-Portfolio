@@ -1,4 +1,4 @@
-img {
+#welcome img{
     border-radius: 50%;
     width: 250px;
 }
@@ -76,4 +76,20 @@ h3 {
 }
 #mywork a:visited{
     color: azure;
+}
+#marvel img{
+    width:600px;
+    height:530px;
+    border:5px solid crimson;
+    transition:transform .2s;
+    margin:15px;
+}
+#marvel img:hover{
+  transform: scale(0.8);
+}
+#contact iframe{
+    width:100%;
+}
+#contact a{
+    text-decoration: none !important;
 }
